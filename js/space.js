@@ -23,7 +23,7 @@ document.getElementById("btnBuscar").addEventListener("click", () => {
               const imageElement = document.createElement("div");
               imageElement.classList.add("col-md-4", "mb-4");
               imageElement.innerHTML = `
-                <div class="card">
+                <div class="card h-100"> 
                   <img src="${imageUrl}" class="card-img-top" alt="${title}">
                   <div class="card-body">
                     <h5 class="card-title">${title}</h5>

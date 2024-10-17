@@ -1,3 +1,17 @@
 main {
     min-height: calc(100vh - 160px);
   }
+
+#contenedor .card {
+   height: 100%; 
+ }
+  
+#contenedor img {
+    object-fit: cover; 
+    height: 200px; 
+ }
+
+ .card-body {
+  max-height: 180px; /* Ajusta la altura máxima según sea necesario */
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+}
